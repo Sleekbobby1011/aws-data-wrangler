@@ -104,10 +104,7 @@ def _get_endpoint_url(service_name: str) -> Optional[str]:
 
 @apply_configs
 def client(
-    service_name: str,
-    session: Optional[boto3.Session] = None,
-    botocore_config: Optional[botocore.config.Config] = None,
-    verify: Optional[Union[str, bool]] = None,
+    service_name: str, session: Optional[boto3.Session] = None, botocore_config: Optional[botocore.config.Config] = None
 ) -> boto3.client:
     """Create a valid boto3.client."""
     endpoint_url: Optional[str] = _get_endpoint_url(service_name=service_name)
@@ -115,17 +112,13 @@ def client(
         service_name=service_name,
         endpoint_url=endpoint_url,
         use_ssl=True,
-        verify=verify,
         config=default_botocore_config() if botocore_config is None else botocore_config,
     )
 
 
 @apply_configs
 def resource(
-    service_name: str,
-    session: Optional[boto3.Session] = None,
-    botocore_config: Optional[botocore.config.Config] = None,
-    verify: Optional[Union[str, bool]] = None,
+    service_name: str, session: Optional[boto3.Session] = None, botocore_config: Optional[botocore.config.Config] = None
 ) -> boto3.resource:
     """Create a valid boto3.resource."""
     endpoint_url: Optional[str] = _get_endpoint_url(service_name=service_name)
@@ -133,7 +126,6 @@ def resource(
         service_name=service_name,
         endpoint_url=endpoint_url,
         use_ssl=True,
-        verify=verify,
         config=default_botocore_config() if botocore_config is None else botocore_config,
     )
 
