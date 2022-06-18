@@ -1174,7 +1174,7 @@ ptyprocess = ">=0.5"
 
 [[package]]
 name = "pg8000"
-version = "1.22.1"
+version = "1.26.0"
 description = "PostgreSQL interface library"
 category = "main"
 optional = false
@@ -2082,7 +2082,7 @@ sqlserver = ["pyodbc"]
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.6.2, <3.11"
-content-hash = "de24b3121ca4b3c436112cd32ab20b51d715b617264073f70ab995d38c279241"
+content-hash = "a5a5e4b0b8f78dea4e9a1e80d58cb3c3bcd923ee28d84435729719da7030710c"
 
 [metadata.files]
 alabaster = [
@@ -2828,8 +2828,8 @@ pexpect = [
     {file = "pexpect-4.8.0.tar.gz", hash = "sha256:fc65a43959d153d0114afe13997d439c22823a27cefceb5ff35c2178c6784c0c"},
 ]
 pg8000 = [
-    {file = "pg8000-1.22.1-py3-none-any.whl", hash = "sha256:fa95b112ba940e227b6de81bda1a16a653d4fdafa7d92baf5116236210417989"},
-    {file = "pg8000-1.22.1.tar.gz", hash = "sha256:fd69ad5af2781e59608cb3f4d966b234d961c62f093edd3194ac45df65b8d1d4"},
+    {file = "pg8000-1.26.0-py3-none-any.whl", hash = "sha256:686cd2a037aad99c20096acc503e1952e1a0a2bc09cf57bc5030bea19bdc3fb3"},
+    {file = "pg8000-1.26.0.tar.gz", hash = "sha256:9e25ea13a5b7fcc83b026051d7c6e4dcd5221e950ebe5393de715a3fea1527d3"},
 ]
 pickleshare = [
     {file = "pickleshare-0.7.5-py2.py3-none-any.whl", hash = "sha256:9649af414d74d4df115d5d718f82acb59c9d418196b7b4290ed47a12ce62df56"},
