@@ -1562,7 +1562,7 @@ py = {version = "*", markers = "implementation_name == \"pypy\""}
 
 [[package]]
 name = "redshift-connector"
-version = "2.0.904"
+version = "2.0.907"
 description = "Redshift interface library"
 category = "main"
 optional = false
@@ -1574,7 +1574,7 @@ boto3 = ">=1.9.201,<2.0.0"
 botocore = ">=1.12.201,<2.0.0"
 lxml = ">=4.6.5"
 packaging = "*"
-pytz = ">=2020.1,<2021.9"
+pytz = ">=2020.1,<2022.2"
 requests = ">=2.23.0,<2.27.2"
 scramp = ">=1.2.0,<1.5.0"
 
@@ -3090,7 +3090,7 @@ pyzmq = [
     {file = "pyzmq-22.3.0.tar.gz", hash = "sha256:8eddc033e716f8c91c6a2112f0a8ebc5e00532b4a6ae1eb0ccc48e027f9c671c"},
 ]
 redshift-connector = [
-    {file = "redshift_connector-2.0.904-py3-none-any.whl", hash = "sha256:e8dec071e76bb98aa4f8eeae3ac34fc68618c47a735903093477f3946eb181e1"},
+    {file = "redshift_connector-2.0.907-py3-none-any.whl", hash = "sha256:f0c75df717dd2eb7e9299dc3e83c9d505186490d4baac944e0bfd23414beca6b"},
 ]
 requests = [
     {file = "requests-2.27.1-py2.py3-none-any.whl", hash = "sha256:f22fa1e554c9ddfd16e6e41ac79759e17be9e492b3587efa038054674760e72d"},
